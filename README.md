@@ -7,6 +7,10 @@
 ---
 
 ## Features
+
+Notify you in Discord when a website changes:   
+![site-watcher](./github/pictures/site-watcher.png)   
+   
 List of features of the site-watcher bot:
 - Add multiple sites to watcher
 - Remove site from watcher
@@ -53,10 +57,10 @@ For all other options, see [Commands](#Commands).
 ### `!help`
 Show all the available commands.
 
-**Parameters**
+**Parameters**   
 None.
 
-**Example**
+**Example**   
 `!help` This will show all the available commands.
 
 **Output**   
@@ -76,7 +80,7 @@ Optional:
 <sub>**Make sure to use double quotation marks when using this parameter.**   
 In Chrome, this can be obtained by right clicking the part of the site you want to track and selecting: `Inspect`. After this you see the element highlighted in the developer view. You can right click on the element and select `Copy → Copy selector`. </sub>
 
-**Example**
+**Example**   
 `!add https://google.com/` This tracks changes on https://google.com/.   
 <sub>Note that some sites, including Google.com have dynamic elements (like ads) that cause a change every time its checked. To make sure this is filtered out, use the css selector parameter.</sub>   
 
@@ -94,7 +98,7 @@ Removes a website from the list.
 Required:   
 `NUMBER` The number of the site you want to remove. Use `!list` to see the number of the site(s).   
 
-**Example**
+**Example**   
 `!remove 1` This removes the first site in the list (`!list`).
 
 **Output**   
@@ -108,7 +112,7 @@ Shows the list of websites being watched.
 **Parameters**   
 None.
 
-**Example**
+**Example**   
 `!list` This shows the list of websites being watched.
 
 **Output**   
@@ -122,7 +126,7 @@ Manually updates the sites that are being watched.
 **Parameters**   
 None.
 
-**Example**
+**Example**   
 `!update` This manually updates the sites that are being watched:
 <sub>If a site is updated, it will push the standard update message to the default update channel.</sub>
 
@@ -134,10 +138,10 @@ None.
 ### `!interval <MINUTES>`
 Set the interval/refresh rate of the watcher. Default `5` minutes.
 
-**Parameters**
+**Parameters**   
 `MINUTES` The interval in minutes (minimum of 1, maximum of 60).
 
-**Example**
+**Example**   
 `!interval 10` Sets the interval to 10 minutes.
 
 **Output**   
@@ -149,10 +153,10 @@ Set the interval/refresh rate of the watcher. Default `5` minutes.
 Start the watcher with the specified interval (default `ON` with interval of `5` minutes). 
 <sub>This uses [cron](https://www.npmjs.com/package/cron).</sub>
 
-**Parameters**
+**Parameters**   
 None.
 
-**Example**
+**Example**   
 `!start` This starts the watcher with the specified interval.
 
 **Output**   
@@ -163,10 +167,10 @@ None.
 ### `!stop`
 Stops the watcher from automatically checking the tracked websites. Watcher can be resumed with `!start`.
 
-**Parameters**
+**Parameters**   
 None.
 
-**Example**
+**Example**   
 `!stop` This stops the watcher from automatically checking the tracked websites.
 
 **Output**   
@@ -177,10 +181,10 @@ None.
 ### `!status`
 Checks if the site watcher is running.
 
-**Parameters**
+**Parameters**   
 None.
 
-**Example**
+**Example**   
 `!status` This checks if the site watcher is running.
 
 **Output**   
