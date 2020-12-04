@@ -57,7 +57,10 @@ Show all the available commands.
 None.
 
 **Example**
-`!help` This will show all the available commands:
+`!help` This will show all the available commands.
+
+**Output**
+![help](./github/pictures/help.png)
 
 ---
 
@@ -77,7 +80,10 @@ In Chrome, this can be obtained by right clicking the part of the site you want 
 `!add https://google.com/` This tracks changes on https://google.com/.   
 <sub>Note that some sites, including Google.com have dynamic elements (like ads) that cause a change every time its checked. To make sure this is filtered out, use the css selector parameter.</sub>   
 
-`!add https://example.com/ "body > div > h1"` This tracks changes in header 1 of the site https://example.com/:
+`!add https://example.com/ "body > div > h1"` This tracks changes in header 1 of the site https://example.com/.
+
+**Output**
+![add](./github/pictures/add.png)
 
 ---
 
@@ -89,7 +95,10 @@ Required:
 `NUMBER` The number of the site you want to remove. Use `!list` to see the number of the site(s).   
 
 **Example**
-`!remove 1` This removes the first site in the list (`!list`):
+`!remove 1` This removes the first site in the list (`!list`).
+
+**Output**
+![remove](./github/pictures/remove.png)
 
 ---
 
@@ -100,7 +109,10 @@ Shows the list of websites being watched.
 None.
 
 **Example**
-`!list` This shows the list of websites being watched:
+`!list` This shows the list of websites being watched.
+
+**Output**
+![list](./github/pictures/list.png)
 
 ---
 
@@ -114,6 +126,9 @@ None.
 `!update` This manually updates the sites that are being watched:
 <sub>If a site is updated, it will push the standard update message to the default update channel.</sub>
 
+**Output**
+![update](./github/pictures/update.png)
+
 ---
 
 ### `!interval <MINUTES>`
@@ -123,7 +138,10 @@ Set the interval/refresh rate of the watcher. Default `5` minutes.
 `MINUTES` The interval in minutes (minimum of 1, maximum of 60).
 
 **Example**
-`!interval 10` Sets the interval to 10 minutes:
+`!interval 10` Sets the interval to 10 minutes.
+
+**Output**
+![interval](./github/pictures/interval.png)
 
 ---
 
@@ -135,7 +153,10 @@ Start the watcher with the specified interval (default `ON` with interval of `5`
 None.
 
 **Example**
-`!start` This starts the watcher with the specified interval:
+`!start` This starts the watcher with the specified interval.
+
+**Output**
+![start](./github/pictures/start.png)
 
 ---
 
@@ -146,7 +167,10 @@ Stops the watcher from automatically checking the tracked websites. Watcher can 
 None.
 
 **Example**
-`!stop` This stops the watcher from automatically checking the tracked websites:
+`!stop` This stops the watcher from automatically checking the tracked websites.
+
+**Output**
+![stop](./github/pictures/stop.png)
 
 ---
 
@@ -157,7 +181,14 @@ Checks if the site watcher is running.
 None.
 
 **Example**
-`!status` This checks if the site watcher is running:
+`!status` This checks if the site watcher is running.
+
+**Output**
+When running:   
+![status1](./github/pictures/status1.png)   
+   
+When off:   
+![status2](./github/pictures/status2.png)
 
 
 ## Contribute
