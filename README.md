@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Gopher" src="./github/images/icon.png" height="140" />
+  <img alt="SiteWatcher" src="./github/images/icon.png" height="140" />
   <h3 align="center">site-watcher</h3>
   <p align="center">A Discord bot that alerts you when (part of) a website changes.</p>
 </p>
@@ -8,11 +8,10 @@
 
 ## Features
 List of features of the site-watcher bot:
-- Add site to watcher
 - Add multiple sites to watcher
 - Remove site from watcher
-- Monitoring specified elements of a site, to not get notified on dynamic elements like ads.
-- Checking on a specified interval (1-60 minutes, default 5).
+- Monitoring specified elements of a site, to not get notified on dynamic elements (ex. ads)
+- Checking on a specified interval (1-60 minutes, default `5`).
 - Manually update tracked sites
 - Show list of tracked sites
 - Open source!
@@ -35,7 +34,7 @@ Configuring the bot:
 1. Open the `.env` file.
 2. Add your discord bot token after `DISCORDJS_BOT_TOKEN=`. You can get this token from [discord.com/developers/applications](https://discord.com/developers/applications).
 3. Add the channel ID from the channel you want the update notifications in after `DISCORDJS_TEXTCHANNEL_ID=`. You can get this ID by right clicking the channel in discord and selecting `Copy ID`.  Make sure `Developer Mode` is on by going to `Settings → Appearance → Advanced → Developer Mode → ON`.
-4. If you want to change the prefix (default `!`), you can change it in the `./src/monitor.js` file.
+4. If you want to change the prefix (default "`!`"), you can change it in the `./src/monitor.js` file (`const PREFIX = '!';`).
 
 For starting and using the bot, see [Usage](#Usage).
 
