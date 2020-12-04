@@ -127,7 +127,7 @@ Manually updates the sites that are being watched.
 None.
 
 **Example**   
-`!update` This manually updates the sites that are being watched:
+`!update` This manually updates the sites that are being watched.   
 <sub>If a site is updated, it will push the standard update message to the default update channel.</sub>
 
 **Output**   
@@ -150,7 +150,7 @@ Set the interval/refresh rate of the watcher. Default `5` minutes.
 ---
 
 ### `!start`
-Start the watcher with the specified interval (default `ON` with interval of `5` minutes). 
+Start the watcher with the specified interval (default `ON` with interval of `5` minutes).   
 <sub>This uses [cron](https://www.npmjs.com/package/cron).</sub>
 
 **Parameters**   
