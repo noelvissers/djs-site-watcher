@@ -1,0 +1,23 @@
+{
+  "name": "discordbot-websitemonitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/monitor.js",
+    "dev": "nodemon ./src/monitor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "crypto": "^1.0.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.1",
+    "got": "^11.8.0",
+    "jsdom": "^16.4.0"
+  }
+}
