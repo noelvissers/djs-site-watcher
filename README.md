@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="SiteWatcher" src="./github/images/icon.png" height="140" />
+  <img alt="SiteWatcher" src="./github/pictures/icon.png" height="140" />
   <h3 align="center">site-watcher</h3>
   <p align="center">A Discord bot that alerts you when (part of) a website changes.</p>
 </p>
