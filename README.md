@@ -59,7 +59,7 @@ None.
 **Example**
 `!help` This will show all the available commands.
 
-**Output**
+**Output**   
 ![help](./github/pictures/help.png)
 
 ---
@@ -82,7 +82,7 @@ In Chrome, this can be obtained by right clicking the part of the site you want 
 
 `!add https://example.com/ "body > div > h1"` This tracks changes in header 1 of the site https://example.com/.
 
-**Output**
+**Output**   
 ![add](./github/pictures/add.png)
 
 ---
@@ -97,7 +97,7 @@ Required:
 **Example**
 `!remove 1` This removes the first site in the list (`!list`).
 
-**Output**
+**Output**   
 ![remove](./github/pictures/remove.png)
 
 ---
@@ -111,7 +111,7 @@ None.
 **Example**
 `!list` This shows the list of websites being watched.
 
-**Output**
+**Output**   
 ![list](./github/pictures/list.png)
 
 ---
@@ -126,7 +126,7 @@ None.
 `!update` This manually updates the sites that are being watched:
 <sub>If a site is updated, it will push the standard update message to the default update channel.</sub>
 
-**Output**
+**Output**   
 ![update](./github/pictures/update.png)
 
 ---
@@ -140,7 +140,7 @@ Set the interval/refresh rate of the watcher. Default `5` minutes.
 **Example**
 `!interval 10` Sets the interval to 10 minutes.
 
-**Output**
+**Output**   
 ![interval](./github/pictures/interval.png)
 
 ---
@@ -155,7 +155,7 @@ None.
 **Example**
 `!start` This starts the watcher with the specified interval.
 
-**Output**
+**Output**   
 ![start](./github/pictures/start.png)
 
 ---
@@ -169,7 +169,7 @@ None.
 **Example**
 `!stop` This stops the watcher from automatically checking the tracked websites.
 
-**Output**
+**Output**   
 ![stop](./github/pictures/stop.png)
 
 ---
@@ -183,12 +183,12 @@ None.
 **Example**
 `!status` This checks if the site watcher is running.
 
-**Output**
+**Output**   
 When running:   
-![status1](./github/pictures/status1.png)   
+![statusOn](./github/pictures/statusOn.png)   
    
 When off:   
-![status2](./github/pictures/status2.png)
+![statusOff](./github/pictures/statusOff.png)
 
 
 ## Contribute
