@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="SiteWatcher" src="./github/pictures/icon.png" height="140" />
+  <img alt="SiteWatcher" src="./.github/pictures/icon.png" height="140" />
   <h3 align="center">site-watcher</h3>
   <p align="center">A Discord bot that alerts you when (part of) a website changes.</p>
 </p>
@@ -9,7 +9,7 @@
 ## Features
 
 Notify you in Discord when a website changes:   
-![site-watcher](./github/pictures/site-watcher.png)   
+![site-watcher](./.github/pictures/site-watcher.png)   
    
 List of features of the site-watcher bot:
 - Add multiple sites to watcher
@@ -64,7 +64,7 @@ None.
 `!help` This will show all the available commands.
 
 **Output**   
-![help](./github/pictures/help.png)
+![help](./.github/pictures/help.png)
 
 ---
 
@@ -87,7 +87,7 @@ In Chrome, this can be obtained by right clicking the part of the site you want 
 `!add https://example.com/ "body > div > h1"` This tracks changes in header 1 of the site https://example.com/.
 
 **Output**   
-![add](./github/pictures/add.png)
+![add](./.github/pictures/add.png)
 
 ---
 
@@ -102,7 +102,7 @@ Required:
 `!remove 1` This removes the first site in the list (`!list`).
 
 **Output**   
-![remove](./github/pictures/remove.png)
+![remove](./.github/pictures/remove.png)
 
 ---
 
@@ -116,7 +116,7 @@ None.
 `!list` This shows the list of websites being watched.
 
 **Output**   
-![list](./github/pictures/list.png)
+![list](./.github/pictures/list.png)
 
 ---
 
@@ -131,7 +131,7 @@ None.
 <sub>If a site is updated, it will push the standard update message to the default update channel.</sub>
 
 **Output**   
-![update](./github/pictures/update.png)
+![update](./.github/pictures/update.png)
 
 ---
 
@@ -145,7 +145,7 @@ Set the interval/refresh rate of the watcher. Default `5` minutes.
 `!interval 10` Sets the interval to 10 minutes.
 
 **Output**   
-![interval](./github/pictures/interval.png)
+![interval](./.github/pictures/interval.png)
 
 ---
 
@@ -160,7 +160,7 @@ None.
 `!start` This starts the watcher with the specified interval.
 
 **Output**   
-![start](./github/pictures/start.png)
+![start](./.github/pictures/start.png)
 
 ---
 
@@ -174,7 +174,7 @@ None.
 `!stop` This stops the watcher from automatically checking the tracked websites.
 
 **Output**   
-![stop](./github/pictures/stop.png)
+![stop](./.github/pictures/stop.png)
 
 ---
 
@@ -189,10 +189,10 @@ None.
 
 **Output**   
 When running:   
-![statusOn](./github/pictures/statusOn.png)   
+![statusOn](./.github/pictures/statusOn.png)   
    
 When off:   
-![statusOff](./github/pictures/statusOff.png)
+![statusOff](./.github/pictures/statusOff.png)
 
 
 ## Contribute
