@@ -4,6 +4,15 @@
   <p align="center">A Discord bot that alerts you when (part of) a website changes.</p>
 </p>
 
+<p align="center">
+  <a href="https://github.com/noelvissers/site-watcher/actions?query=workflow%3A%22Node.js+CI%22" alt="Pipeline status">
+    <img src="https://github.com/noelvissers/site-watcher/workflows/Node.js%20CI/badge.svg?branch=master"/>
+  </a>
+  <a href="https://opensource.org/licenses/MIT" alt="Licence">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg"/>
+  </a>
+</p>
+
 ---
 
 ## Features
