@@ -43,23 +43,22 @@ Downloading the project:
 
 1. Create a new discord bot on [discord.com/developers/applications](https://discord.com/developers/applications). A tutorial can be found [here](https://discordpy.readthedocs.io/en/latest/discord.html).   
 2. Make sure you have [git](https://git-scm.com/downloads) and [nodejs](https://nodejs.org/en/) installed.
-3. Right click where you want the project folder and select `Git Bash Here`
-4. Use the command `clone https://github.com/noelvissers/site-watcher.git` to clone the repository.
-5. Open `cmd.bat` in the repository folder
-6. Type `npm install` and press `enter`.
+3. Clone the repository.
+4. Open `cmd.bat` in the repository folder.
+5. Type `npm install` and press `enter`.
 
 Configuring the bot:
 
 1. Open the `.env` file.
 2. Add your discord bot token after `DISCORDJS_BOT_TOKEN=`. You can get this token from [discord.com/developers/applications](https://discord.com/developers/applications).
-3. Add the channel ID from the channel you want the update notifications in after `DISCORDJS_TEXTCHANNEL_ID=`. You can get this ID by right clicking the channel in discord and selecting `Copy ID`.  Make sure `Developer Mode` is on by going to `Settings → Appearance → Advanced → Developer Mode → ON`.
+3. Add the channel ID from the channel you want the update notifications in after `DISCORDJS_TEXTCHANNEL_ID=`. You can get this ID by right clicking the channel in discord and selecting `Copy ID`.  Make sure `Developer Mode` is on by going to `Settings → Appearance → Advanced → Developer Mode → ON`. Make sure the bot has permission to post in this channel.
 4. If you want to change the prefix (default "`!`"), you can change it in the `./src/monitor.js` file (`const PREFIX = '!';`).
 
 For starting and using the bot, see [Usage](#Usage).
 
 ## Usage
 The simplest method to monitor a site:
-1. Invite the bot to your Discord server by replacing `123456789012345678` in the following link with your bot's client id: `https://discord.com/oauth2/authorize?client_id=123456789012345678&scope=bot&permissions=8`. Make sure the bot has permission to post in this channel.
+1. Invite the bot to your Discord server by replacing `123456789012345678` in the following link with your bot's client id: `https://discord.com/oauth2/authorize?client_id=123456789012345678&scope=bot&permissions=8`. 
 1. Open the command line in the cloned repository folder by opening the `cmd.bat` file.
 2. Start the bot by typing `npm start`.
 3. In Discord (the bot should now be online), add a website with the `!add <URL>` command.
