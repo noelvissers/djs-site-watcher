@@ -35,9 +35,6 @@ List of features of the site-watcher bot:
 - Show list of tracked sites
 - Open source!
 
-## Background
-When I started looking for a new apartment, I got tired of the update emails I got. Every time I got one of these emails, the apartments would already be online for almost a day, so there was no chance I would be close to one of the first ones to respond. The solution: *have something that notifies me instantly when a new apartment is put online.* With this in mind I started looking at sites that monitor this for you. All of them were paid (unless you want 1 update every hour and 5 updates a day). These sites often use email as a way to notify you, which also introduces a decent delay. So I started looking elsewhere. I found a few scripts that can do the same, some even with webhook integration! I also found a few other bots (also for Discord), but they often lacked some features I needed, like being able to select part of a site. As the engineer I am, I started doing some research into how to make this idea a reality and started working on the bot. I hope this can be an example (or fully useful) to someone else!
-
 ## Install
 Downloading the project:
 
