@@ -11,9 +11,6 @@
   <a href="https://github.com/noelvissers/site-watcher/releases" alt="Version">
     <img src="https://img.shields.io/github/v/release/noelvissers/site-watcher"/>
   </a>
-  <a href="https://github.com/noelvissers/site-watcher/releases" alt="Releases">
-    <img src="https://img.shields.io/github/downloads/noelvissers/site-watcher/total"/>
-  </a>
   <a href="https://opensource.org/licenses/MIT" alt="Licence">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg"/>
   </a>
