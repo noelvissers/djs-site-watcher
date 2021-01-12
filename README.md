@@ -206,11 +206,11 @@ When off:
 ## Contribute
 Im currently not updating the bot with new features, however I'll try to fix bugs that are reported. If you'd like you can add new features or fix bugs by forking the repository and creating a pull request.   
    
-Features I want to implement at some point:
-[ ] Multi-server support   
-[ ] Configuration via Discord, not via config file   
-[ ] Docker image   
-[ ] More options for setting interval (seconds/hours/days etc.)   
+Features I want to implement at some point:   
+- [] Multi-server support   
+- [] Configuration via Discord, not via config file   
+- [] Docker image support   
+- [] More options for setting interval (seconds/hours/days etc.)   
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
