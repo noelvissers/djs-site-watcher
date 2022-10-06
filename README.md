@@ -18,6 +18,10 @@
 
 ---
 
+## This project is obsolete!
+
+Discord changed the way bots work, and this bot is not working anymore because of that. I won't work on this project anymore so feel free to fork this project and create your own version based on this (and feel free to submit pull requests).
+
 ## Features
 
 Notify you in Discord when a website changes:   
